@@ -1,0 +1,62 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 65271927326,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.beforeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 31996380,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2839749543,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to write a step with precondition",
+            "match": {
+              "location": "Test.i_want_to_write_a_step_with_precondition()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/cucumber/script/test.feature"
+  }
+]
